@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(81, 200, 216);
+    width: 100vw;
+    height: 120vh;
+    box-sizing: border-box;
+}
+
+.fundo{
+    width: 500px;
+    height: 550px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(21, 32, 65);
+    flex-direction: column;
+    
+
+}
+
+.caixa{
+   width: 90%;
+   height: 40px;
+   background-color:  rgb(81, 200, 216);
+}
