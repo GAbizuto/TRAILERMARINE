@@ -10,42 +10,50 @@
 
 </head>
 <body>
-    <header>         
+    <header>
+        <nav role="navigation">
+            <div id="menuToggle">
+              <!--
+              A fake / hidden checkbox is used as click reciever,
+              so you can use the :checked selector on it.
+              -->
+              <input type="checkbox" />
+              
+              <!--
+              Some spans to act as a hamburger.
+              
+              They are acting like a real hamburger,
+              not that McDonalds stuff.
+              -->
+              <span></span>
+              <span></span>
+              <span></span>
+              
+              <!--
+              Too bad the menu has to be inside of the button
+              but hey, it's pure CSS magic.
+              -->
+              <ul id="menu">
+                <a href="pacotes.html"><li>Pacotes</li></a>
+                <a href="#"><li>Pagina inicial</li></a>
+                <a href="#"><li>Cadastros</li></a>
+                <a href="login.html"><li>Login</li></a>
+                <a href="https://youtu.be/iUc7dD5zy44?t=524" target="_blank"><li>click em mim </li></a>
+              </ul>
+            </div>
+          </nav>
+     
         
-        <div class="menu">
-            <nav role="navigation">
-                <div id="menuToggle">
-                    <!--
-                    A fake / hidden checkbox is used as click reciever,
-                    so you can use the :checked selector on it.
-                    -->
-                    <input type="checkbox" />
-                    
-                    <!--
-                    Some spans to act as a hamburger.
-                    
-                    They are acting like a real hamburger,
-                    not that McDonalds stuff.
-                    -->
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    
-                    <!--
-                    Too bad the menu has to be inside of the button
-                    but hey, it's pure CSS magic.
-                    -->
-                    <ul id="menu">
-                        <a href="#"><li>Home</li></a>
-                        <a href="#"><li>About</li></a>
-                        <a href="#"><li>Info</li></a>
-                        <a href="#"><li>Contact</li></a>
-                        <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
-                    </ul>
-                </div>
-            </nav>
+    
+       <div class="menu">
+            <h1>Trailermarine</h1>
+            <div class="submarino"></div>
+            <div class="icon">
+            <img src="submarino.png" width="70px" height="60px">
+            <img src="icon.png" width="60px" height="50px">
+   
+            </div> 
         </div>
-        <h1>Trailermarine</h1>
     </header>
 
     <div class="caixona"> 
