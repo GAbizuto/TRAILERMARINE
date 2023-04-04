@@ -30,13 +30,14 @@ header
   justify-content: space-between ;
   margin: 2px;   
 }
-h1{
+h1
+{
     font-size: 3rem;
     padding: 0%;
     color: rgb(81, 200, 216);
 }
-.menu{
-    
+.menu
+{ 
     display: flex;
     align-items: center;
      height: 8vh;
@@ -47,8 +48,9 @@ h1{
 
 
 }
-.icon{
-     width: 200px;
+.icon
+{
+    width: 200px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -66,7 +68,8 @@ h1{
     align-self: center;
 
 }
-.caixona{
+.caixona
+{
     width: 600px;
     height: 300px;
     display: flex;
@@ -79,7 +82,8 @@ h1{
     font-family: 'bayon'; font-size: 40px;
 
 }
-.mensagem{
+.mensagem
+{
     height: 40px;
     width: 80%;
     border-radius: 10px;
@@ -92,6 +96,15 @@ h1{
     color: white;
     font-size: 25px;
  }
+.BT1
+{
+    background-color: rgb(81, 200, 216);
+    padding: 2px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-family: 'Bayon';
+    color: white;
+}
 #menuToggle
  {
    display: block;
