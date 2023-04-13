@@ -70,13 +70,21 @@ h1{
     width: 550px;
     height: 550px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     background-color: rgb(21, 32, 65);
     flex-direction: column;
     border-radius: 50%;
     color: #96DDDD;
     font-family: 'bayon'; font-size: 40px
+}
+.escritas
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 .circuloLogo {
@@ -90,10 +98,19 @@ h1{
   text-decoration: underline;
   display: flex;
   z-index: 10;
-  padding-top: 50px;
+  padding-top: 15px;
   flex-direction: column;
 }
-
+.periscopio
+{
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center
+  ;
+}
 #menuToggle
  {
    display: block;
