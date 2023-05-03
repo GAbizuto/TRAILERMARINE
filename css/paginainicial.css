@@ -1,23 +1,25 @@
 body{
-    margin: 0;
+    
+   margin: 0;
     padding: 0%;
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 100vw;
-    height: 100vh;
+    height: 1000vh;
     box-sizing: border-box;
     background-image: url("../imagens/fundo.jpg");
     background-position: center ;
     background-size: 130%;
-    overflow: hidden;
-    background-color: rgb(150, 221, 221);    
+
+    background-color: rgb(150, 221, 221);   
+    align-content: center;
 }
  header
  {
     width: 100%;
     height: 8vh ;
-    background-color:rgb(21, 32, 65);
+    background-color:rgb(0, 0, 0);
     display:flex;
     padding: 20px;
     color: rgb(224, 242, 245);
@@ -172,7 +174,7 @@ h1{
    padding: 50px;
    padding-top: 125px;
    
-   background:  rgb(21, 32, 65);
+   background:  rgb(0, 0, 0);
    list-style-type: none;
    -webkit-font-smoothing: antialiased;
    /* to stop flickering of text in safari */
@@ -197,11 +199,11 @@ h1{
    transform: none;
  }
   .caixona{
-    width: 70%;
-    height: 300px;
+    width: 90%;
+    height: 70vh;
   
     align-items: center;
-    background-color: rgb(21, 32, 65);
+
     flex-direction: column;
     border-radius: 10px;
     color: #96DDDD;
@@ -228,24 +230,39 @@ h1{
     align-self: center;
 }
 
-#imagem {
-  position: absolute;
-  left: 0px;
-  top: 600px;
-  animation: mover 10s linear forwards ;
-}
 
-@keyframes mover {
-  0% {
-            left: 0px;
-            opacity: 1;
-        }
-        75% {
-            opacity: 1;
-        }
-  100% {
-            left: 1300px;
-            opacity: 0;
-        }
-}
  
+.imagem
+{
+    position: absolute; 
+    top:0px;
+    left:0px;
+}
+.moldura
+{
+  width: 1000px;
+  height: 550px;
+  position: relative; /* Todas as imagens estão dentro da moldura */
+  align-items: center;
+  border: 8px solid black;
+  border-radius: 5px;
+}
+.sobre{
+  
+    width: 90%;
+    height: 90vh;
+  
+    align-items: center;
+   background-color: #131414;
+    flex-direction: column;
+    border-radius: 10px;
+    color: #96DDDD;
+    font-family: 'bayon'; 
+    box-sizing: border-box;
+    align-content: center;
+    font-size: 20px;
+    text-align: center;
+    padding: 4PX;
+
+    
+}

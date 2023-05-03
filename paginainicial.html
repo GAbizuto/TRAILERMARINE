@@ -53,19 +53,70 @@
             </div>
           </header>
             <div class="fora">
-              <img id="imagem" src="SUBMARINO.png" width="150" height="150" alt="Imagem animada" />
-            </div>
-                
+     
+          
               <div class="caixona">
-                Bem-vindo ao nosso site de viagens de submarino! Somos uma equipe apaixonada por explorar o fundo do mar e oferecer experiências únicas aos nossos clientes.<br><br>
-                Nossa empresa foi fundada por um grupo de entusiastas de mergulho e submarinos, que se uniram para tornar a exploração submarina mais acessível e emocionante. Desde então, crescemos para nos tornar líderes em viagens de submarino em todo o mundo.<br><br>
-            
+                <div class="moldura">
+                  <img class="imagem" id="imagem1" src="../imagens/submarino por fora.jpg" width="1000px" height="550px" >
+                  <img class="imagem" id="imagem2" src="../imagens/refeitorio.jpg" width="1000px" height="550px" >
+                  <img class="imagem" id="imagem3" src="../imagens/quarto.jpeg" width="1000px" height="550px" >
+              </div>
             
               </div>
           
                           
             </div>
+            <br><br><br>
+            <div class="sobre">
+              dbvsfhisbgbbsbiubdivbi
+            </div>
+        
           
             </body>
+            <script src="jquery-3.6.4.min.js">
+              // BAIXE ESTE ARQUIVO EM:  https://jquery.com/download/
+              // Clique com o botão direito em Download compressed e salve na mesma pasta.
+          </script>
+          
+          <script>
+          
+                  setInterval(carrossel, 3000); // EXECUTA A FUNÇÃO "carrossel" A CADA 3 SEGUNDOS
+          
+                  var IMAGEM=0;
+                  function ESCONDER()
+                  {
+                      $("#imagem4").animate({opacity:'0'},1000);     
+                  }
+                  function MOSTRAR()
+                  {
+                      $("#imagem4").animate({opacity:'300'},1000);   
+                  }
+          
+                  function carrossel()
+                  {
+                      IMAGEM = IMAGEM + 1;
+                      if(IMAGEM==1)
+                      {
+                          $("#imagem1").animate({opacity:'1'},5000);
+                          $("#imagem2").animate({opacity:'0'},1000);
+                          $("#imagem3").animate({opacity:'0'},1000);         
+                      }
+                      if(IMAGEM==2)
+                      {
+                          $("#imagem1").animate({opacity:'0'},1000);
+                          $("#imagem2").animate({opacity:'1'},5000);
+                          $("#imagem3").animate({opacity:'0'},1000);         
+                      }
+                      if(IMAGEM==3)
+                      {
+                          $("#imagem1").animate({opacity:'0'},1000);
+                          $("#imagem2").animate({opacity:'0'},1000);
+                          $("#imagem3").animate({opacity:'1'},5000); 
+                          IMAGEM=0;
+                      }
+          
+                  }
+          </script>
+          
          
 </html>
