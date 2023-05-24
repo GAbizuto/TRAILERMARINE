@@ -148,20 +148,20 @@ border: 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 50%;
+    width: 60%;
 }
 .BT1
 {
-    background-color: rgba(23, 186, 250, 0.801);
-    padding: 10px;
+    background-color: rgb(23, 186, 250);
+    width: 120px;
     border-radius: 20px;
     font-size: 25px;
     font-family: 'Bayon';
 }
 .BT2
 {
-    background-color: rgba(23, 186, 250, 0.801);
-    padding: 10px;
+    background-color: rgb(23, 186, 250);
+    width: 120px;
     border-radius: 20px;
     font-size: 25px;
     font-family: 'Bayon';
